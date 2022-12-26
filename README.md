@@ -1,29 +1,30 @@
-# TikTok-Rare-Username-Checker
-## A simple asynchronous tool that checks if a TikTok username is taken or not
+<br/>
+<div align="center">
+  
+  # Proxyless TikTok Username Checker
+  
+<h1>
+🌟 Join my Discord server <a href="https://discord.gg/NrnKpUYjWR">here</a> 🌟
+</h1>
+  Loops through a list of usernames to check if they are available or unavailable. Click <a href="https://github.com/useragents/Proxyless-TikTok-Username-Checker/issues">here</a> to report bugs.
+  
+  ![image](https://user-images.githubusercontent.com/103281345/162510554-7fbce4b6-9869-480e-a64f-b96dc56adbd1.png)
 
-## About
-It is a proxyless tool that checks the availablity of TikTok usernames in blazing fast
-speed. It checks if the http request status code is not ```200```. If it is, it will automatically assume that the TikTok username is not taken. 
+  
+</div>
 
-This tool can be inaccurate at times because it does not use the TikTok api. It only checks if the username's TikTok url is invalid.
+--------------------------------------
 
-This tool is used for educational purposes only. 
+### Usage
 
-## Picture
-![Picture](https://i.ibb.co/Nxv536d/Screenshot-156.png)
 
-## How to use
-- Python must be installed
+1. Download ZIP <a href="https://github.com/useragents/Proxyless-TikTok-Username-Checker/archive/refs/heads/main.zip">here</a> and extract the ZIP
+2. Install <a href="https://github.com/useragents/Proxyless-TikTok-Username-Checker/blob/main/requirements.txt">requirements.txt</a> by typing `pip install -r requirements.txt` in Command Prompt
+3. Enter your choice of usernames inside of the `usernames.txt` file, or generate them using the <a href="https://github.com/useragents/Proxyless-TikTok-Username-Checker/blob/main/username_generator.py">username_generator.py</a> script.
+4. Run the `run.bat` file which executes the `main.py` script and enter the amount of threads you would like.
+5. All available usernames will be outputted to `Available.txt` file.
 
-1. If you dont have python installed, download python 3.7.6
-and make sure you click on the 'ADD TO PATH' option during
-the installation.
+### Please note
 
-2. Type ```pip install aiohttp``` in cmd
+This script only allows you to use a maximum of 5 threads to prevent ratelimits to keep this script proxyless, I am not responsible for your actions using this script. This script was made for educational purposes.
 
-3.  Add the usernames you want to check in ```usernames.txt```. Do not put a lot of usernames because you can get rate limited (because this tool is proxyless). It is recommended to check around 500 usernames then wait 24 hours before you can check again.  
-
-4.  Make sure you are in the same directory as the folder you downloaded it in.  Type
-```python main.py``` in cmd to run
-
-5. Once it is done running, available usernames will be saved in ```hits.txt```. 
